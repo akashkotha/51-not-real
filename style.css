@@ -1,0 +1,48 @@
+.head{
+      
+    background-color:white;
+    border:solid;
+    font-family: fantasy;
+     }     
+  .grid {
+    background: darkred;
+    background-color: #F0F8FF;
+    display: flex;
+    justify-content: last baseline;
+    flex-direction: row;
+    text-align: left;
+    flex-wrap: wrap;
+  }
+  .grid img{
+    border: solid black;
+  }
+  
+  .origami {
+    border: 1px solid #0000FF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 500px;
+    padding: 50px;
+    background-color:#E8E5E4;
+    border-width: 6px;
+  }
+  .origami:hover{
+    transform: scale(1.2);
+  }
+  a:link{
+    transform: scale(1.2);
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  
+  a:visited{
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .img:hover{
+    background-color: rgb(0, 0, 0);
+    color: black;
+  }
+  
